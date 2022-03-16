@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+    database: mysql
+
+  datasource:
+    url: jdbc:mysql://localhost:8080/kv
+    username: root
+    password: root
