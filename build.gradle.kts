@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     runtimeOnly("mysql:mysql-connector-java")
+    implementation("net.logstash.logback:logstash-logback-encoder:6.6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
